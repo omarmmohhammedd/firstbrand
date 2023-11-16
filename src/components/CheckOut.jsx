@@ -62,7 +62,7 @@ export default function CheckoutForm() {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "http://localhost:8000/sucess",
+        return_url: "https://api.thefirstbrand.shop/sucess",
       },
     });
 
