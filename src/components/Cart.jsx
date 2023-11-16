@@ -21,7 +21,7 @@ const Cart = () => {
   const [timeValue, setTimeValue] = useState("");
   const [dateValue, setDateValue] = useState("");
   const [client_secret,setClientSecret] = useState(null)
-  const stripePromise = loadStripe("pk_test_51NuJo7JxvesMFvG9UrSZhDsg0sb5uirWsxoi6uoEOrad0dOLIDQtnjDIjjzAeu7tyYJCJgZhhE40AQxbReQfA4Vn006NDI2exr");
+  const stripePromise = loadStripe("pk_live_51NuJo7JxvesMFvG9Qq8PCR7vOVTNxMiit3YMEvTNGQ5V2ZuYDXWwEPXRr9xso7pmFA1XnSutBlhdorGQDo8cQ1tJ00pDDpEHHU");
 
   
   const getFormattedDate = function (num) {
