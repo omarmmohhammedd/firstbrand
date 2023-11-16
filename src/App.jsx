@@ -23,6 +23,7 @@ import Payment from "./Pages/customerserv/Payment";
 import Aboutus from "./Pages/Aboutus";
 import Search from "./Pages/Search";
 import CheckoutForm from "./components/CheckOut";
+import Success from "./components/Success";
 export const AppContext = createContext();
 export const route = "https://api.thefirstbrand.shop";
 // export const route = "http://localhost:8000";
@@ -96,6 +97,7 @@ export default function App() {
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/search" element={<Search />} />
           <Route path="/pay" element={<CheckoutForm/>}/>
+          <Route path="/payment-success" element={<Success/>}/>
         </Routes>
         <Footer />
       </div>
